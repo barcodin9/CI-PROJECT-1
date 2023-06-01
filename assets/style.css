@@ -53,6 +53,7 @@ body{
     background-color: black;
     margin: 30px;
     margin-top: 10px;
+    border-radius:25px;
   }
   
   .box1{
@@ -79,6 +80,10 @@ body{
     background-position: center;
   }
 
+  .box:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+  }
 
   
   
