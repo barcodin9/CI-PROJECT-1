@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo-cont {
+    position: relative;
+    margin: 60px;
+    
+  }
+  
+  .logo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    font-size: 120px;
+    color: #785964;
+  }
+
+  .logo a{
+    text-decoration: none;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px; 
+    padding: 60px;
+    position: relative;
+    z-index:1;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  
+  .box {
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    margin: 30px;
+    margin-top: 10px;
+  }
+  
+  .box1{
+    background-image: url(/assets/images/meditation-1384758_1920.jpg) ;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box2{
+    background-image: url(/assets/images/boy-1807518_1920.jpg) ;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box3{
+    background-image: url(/assets/images/glass-sphere-7986102_1920.jpg) ;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box4{
+    background-image: url(/assets/images/abstract-3092201_1920.jpg) ;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  
+  
