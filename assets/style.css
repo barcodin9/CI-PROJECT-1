@@ -6,14 +6,17 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(/assets/images/sunset-1373171_1920.jpg);
-    background-size: cover;
-    background-position: center center no-repeat;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home{
+  background-image: url(/assets/images/sunset-1373171_1920.jpg);
+  background-size: cover;
+  background-position: center center no-repeat;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
   .logo-cont{
-  margin: 10px 10px;
+  margin: 10px 30px;
   float: left;
   }
 
@@ -27,15 +30,15 @@ body{
   }
 
   .logo:hover{
-    
+    transition:0.2s;
     text-shadow: 0 0 10px black;
   }
 
   .box-cont {
     display: flex;
-    flex-direction: horizontal;
+    flex-direction: row;
     justify-content: flex-end;
-    align-items: right;
+    align-items: center;
     height: 100px; 
     padding: 25px;
     position: relative;
@@ -43,12 +46,15 @@ body{
   }
   
   .box {
-    width: 50px;
-    height:50px;
+    width: 60px;
+    height:60px;
     background-color: black;
-    margin: 20px;
-    margin-top: 10px;
-    border-radius:25px;
+    margin: 15px;
+    border-radius:35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .box1{
@@ -74,6 +80,8 @@ body{
     transform: scale(1.1);
   }
 
+  
+
   .home-text-cont{
     display: flex;
     justify-content: center;
@@ -92,6 +100,14 @@ body{
     text-align:center;
   }
 
+  .fa-xl{
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
   .home-btn{
     border: 1px solid aquamarine;
     border-radius: 50px;
@@ -102,16 +118,21 @@ body{
     cursor: pointer;
     margin: 10px;
     transition: 0.3s;
-    position: relative;
-    overflow: hidden;
   }
 
     .btn1{
       color: aquamarine;
     }
   
+    .home-btn:hover{
+      color: white;
+    }
+
   .btn1:hover {
     background-color: black;
     border-color: black;
   }
+
+  /* contact page */
+  
   
