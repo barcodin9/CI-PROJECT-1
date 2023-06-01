@@ -6,37 +6,32 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(/assets/images/black-1072366_1280.jpg);
+    background-image: url(/assets/images/sunset-1373171_1920.jpg);
     background-size: cover;
     background-position: center center no-repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.logo-cont {
-    position: fixed;
-    top: 10px;
-    left: 30px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: left;
-    align-items: flex-start;
-    
+  .logo-cont{
+  margin: 10px 10px;
+  float: left;
   }
-  
+
   .logo-cont a{
     text-decoration: none;
   }
 
-  .logo {
-    float: center;
-    padding: 0px;
-    font-size: 75px;
-    color: whitesmoke;
-    text-decoration: none;
+  .logo{
+    color: #F3E1DD;
+    font-size: 80px;
   }
 
-  .container {
+  .logo:hover{
+    
+    text-shadow: 0 0 10px black;
+  }
+
+  .box-cont {
     display: flex;
     flex-direction: horizontal;
     justify-content: flex-end;
@@ -57,27 +52,21 @@ body{
   }
   
   .box1{
-    background-color: #DBD4D3;
-    background-size: cover;
-    background-position: center;
+    background-color: #F3E1DD;
   }
 
   .box2{
-    background-color: #BDD4E7;
-    background-size: cover;
-    background-position: center;
+    background-color: #F3E1DD;
   }
 
   .box3{
-    background-color: #BDD4E7;
-    background-size: cover;
-    background-position: center;
+    background-color: #F3E1DD;
+    
   }
 
   .box4{
-    background-color: #BDD4E7;
-    background-size: cover;
-    background-position: center;
+    background-color: #F3E1DD;
+    
   }
 
   .box:hover {
@@ -85,5 +74,44 @@ body{
     transform: scale(1.1);
   }
 
+  .home-text-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  .homepage-text{
+    font-size: 500%;
+    color: whitesmoke;
+    text-align: center;
+    
+  }
   
+  .homebtn-container{
+    text-align:center;
+  }
+
+  .home-btn{
+    border: 1px solid aquamarine;
+    border-radius: 50px;
+    background: none;
+    padding:30px 50px 30px 50px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+    .btn1{
+      color: aquamarine;
+    }
+  
+  .btn1:hover {
+    background-color: black;
+    border-color: black;
+  }
   
