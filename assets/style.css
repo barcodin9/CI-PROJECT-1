@@ -171,6 +171,10 @@ body{
     border-radius:2px;
   }
 
+  .text-input:hover{
+    border: 2px solid yellow;
+  }
+
   .textarea{
     background-color: transparent;
     color: #fafafa;
@@ -181,6 +185,32 @@ body{
     border-radius:2px;
     
   }
+
+  .textarea:hover{
+    border: 2px solid yellow;
+  }
+
+  input[type=submit]{
+    width: 250px;
+    height: 50px;
+    border: 2px solid yellow;
+    color: lightyellow;
+    border-radius: 2px;
+    background: transparent;
+    font-size: 20px;
+  }
+
+  input[type=submit]:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+
+  }
+
+
 
 
   /* shop page */
