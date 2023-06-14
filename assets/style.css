@@ -190,6 +190,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 140px;
   }
 
   main{
@@ -326,4 +327,101 @@ body{
     color: grey;
   }
 
+  /*universal footer */
+
+  .footer{
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: -35%;
+    background-color: lightgrey;
+    height: 35%;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    
+  }
+
+  .footer-shop{
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: -40%;
+    background-color: lightgrey;
+    height: auto;
+    width: 100vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+  }
+
+  .footer-video{
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: -130%;
+    background-color: lightgrey;
+    height: auto;
+    width: 100vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+  }
   
+
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+
+  .footer-content h3{
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin: 25px;
+    line-height: 2rem;
+  }
+
+  .footer-content p{
+    max-width: 500px;
+    line-height: 25px;
+    margin: 10px auto;
+    font-size: 18px;
+
+  }
+
+  .social-networks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 1rem 0 3rem 0;
+    padding: 0;
+  }
+
+  .social-networks li{
+    margin: 0 1.5rem 0 1.5rem;
+    
+  }
+
+  .social-networks a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .social-networks a i{
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .social-networks a:hover{ 
+    color: #666;
+  }
+
+  .footer-end{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
