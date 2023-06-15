@@ -1,10 +1,20 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+#MindsFull
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+MindsFull is a fictional company centered around mindfulness and yoga. It offers a shop and some introductory videos to get the uninitiated involved in the practice.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+##Features
+
+- Navigation bar
+    -Featured on all pages, the fully responsive navigation bar includes links to Logo (home page), Home Page, 
+    Shop Page, Video Page and a Contact Page.
+    -This section will allow users to easily and quickly navigate the website.
+    -Each page is navigable through the styled icons in a row along the nav bar.
+
+    
+
+
 
 ## Codeanywhere Reminders
 
