@@ -1,17 +1,22 @@
 *{
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
 
+html{
+  height:100%;
 }
 
 body{
-    margin: 0;
-    padding: 0;
+  min-height:100%;
 }
 
 .home{
   background-image: url(/assets/images/sunset-1373171_1920.jpg);
   background-size: cover;
-  background-position: center center no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -25,7 +30,7 @@ body{
   }
 
   .logo{
-    color: #F3E1DD;
+    color: #fefae0;
     font-size: 80px;
   }
 
@@ -58,20 +63,20 @@ body{
   }
   
   .box1{
-    background-color: #F3E1DD;
+    background-color: #fefae0;
   }
 
   .box2{
-    background-color: #F3E1DD;
+    background-color: #fefae0;
   }
 
   .box3{
-    background-color: #F3E1DD;
+    background-color: #fefae0;
     
   }
 
   .box4{
-    background-color: #F3E1DD;
+    background-color: #fefae0;
     
   }
 
@@ -90,6 +95,7 @@ body{
   }
 
   .homepage-text{
+    margin-top: 125px;
     font-size: 500%;
     color: whitesmoke;
     text-align: center;
@@ -97,7 +103,8 @@ body{
   }
   
   .startbtn-container{
-    text-align:center;
+    justify-content: center;
+    text-align: center;
   }
 
   .fa-xl{
@@ -216,7 +223,7 @@ body{
   /* shop page */
 
   .shop{
-    background: url(/assets/images/bokeh-2072271_1920.jpg);
+    background: #A87D10;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -241,7 +248,7 @@ body{
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 5px;
   }
   
@@ -250,7 +257,7 @@ body{
   }
   
   .product p {
-    color: #666;
+    color: #ddd;
   }
   
   .product span {
@@ -260,8 +267,8 @@ body{
   }
   
   button {
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: black;
     padding: 10px 20px;
     margin-top: 10px;
     border: none;
@@ -271,13 +278,13 @@ body{
 
   button:hover {
     transition: transform 0.3s ease;
-    transform: scale(1.1);
+    transform: scale(1.1); 
   }
 
   /* video/picture page */
 
   .vidpage {
-    background: url(/assets/images/background-3127102_1920.jpg);
+    background: #ccd5ae;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -364,36 +371,32 @@ body{
     left: 0;
     right: 0;
     bottom: -35%;
-    background-color: lightgrey;
+    background-color: white;
     height: 35%;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10px;
-    
   }
 
   .footer-shop{
-    position:absolute;
+    position: absolute;
+    clear: top;
     left: 0;
     right: 0;
     bottom: -40%;
-    background-color: lightgrey;
-    height: auto;
+    background-color: white;
+    height: 35%;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10px;
   }
 
   .footer-video{
-    position:absolute;
-    left: 0;
-    right: 0;
-    bottom: -130%;
-    background-color: lightgrey;
+    background-color: white;
     height: auto;
-    width: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 10px;
+    width: 100vw;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
   }
   
 
@@ -455,3 +458,15 @@ body{
     align-items: center;
     display: flex;
   }
+  
+ /*
+  #page-container{
+    position: relative;
+    min-height: 100vh;
+  }
+
+  #content-wrap{
+    padding-bottom: 2.5rem;
+
+  }
+*/
