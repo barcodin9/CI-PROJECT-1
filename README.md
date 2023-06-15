@@ -1,10 +1,10 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-#MindsFull
+# MindsFull
 
 MindsFull is a fictional company centered around mindfulness and yoga. It offers a shop and some introductory videos to get the uninitiated involved in the practice.
 
-##Features
+## Features
 
 - Navigation bar
     -Featured on all pages, the fully responsive navigation bar includes links to Logo (home page), Home Page, 
