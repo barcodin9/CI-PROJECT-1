@@ -380,7 +380,6 @@ body{
 
   .footer-shop{
     position: absolute;
-    clear: top;
     left: 0;
     right: 0;
     bottom: -40%;
