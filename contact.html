@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/style.css">
 
+        
+
+    </head>
+    <body class="contact">
+        
         <!-- universal header -->
         <div class="logo-cont">
             <a href="index.html">
@@ -30,23 +35,19 @@
             </a>
         </div>
 
-    </head>
-    <body class="contact">
-        
-
        <section>
         <form method="post" action="https://formdump.codeinstitute.net/" class="question-form">
             <h2>Ask us a question!</h2>
-            <label for="email" id="email">Email Address:</label>
-                <input id="email" name="email" class="text-input" type="email" for="email" required>
+            <label id="email">Email Address:</label>
+                <input name="email-input" class="text-input" type="email" required>
 
-            <label for="fullname" id="fullname">Name:</label>
-                <input id="fullname" name="full_name" class="text-input" type="text" for="fullname" required>
+            <label for="fullname">Name:</label>
+                <input id="fullname" name="full_name" class="text-input" type="text" required>
 
-            <label for="question" id="question">Question:</label>
-                <textarea id="question" for="question" name="question" class="textarea" type="textarea" required></textarea>
-
+            <label>Question:</label>
+                <textarea name="question" class="textarea" required></textarea>
                 <input type="submit" value="Submit Question!">
+
         </form>
        </section>
 
