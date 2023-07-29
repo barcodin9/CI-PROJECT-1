@@ -13,7 +13,7 @@ body{
 }
 
 .home{
-  background-image: url(/assets/images/sunset-1373171_1920.jpg);
+  background-color: lightblue;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
