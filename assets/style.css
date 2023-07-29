@@ -12,13 +12,13 @@ body{
   min-height:100%;
 }
 
-#home{
-  background-image: url(/assets/images/sunset-1373171_1920.png);
+  .home {
+  background-image: url(./images/sunset-1373171_1920.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+  } 
 
   .logo-cont{
   display: flex;
