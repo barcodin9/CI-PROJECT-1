@@ -21,8 +21,9 @@ body{
 }
 
   .logo-cont{
-  margin: 10px 30px;
-  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   }
 
   .logo-cont a{
@@ -32,6 +33,7 @@ body{
   .logo{
     color: #fefae0;
     font-size: 80px;
+    padding: 25px 0 25px 50px;
   }
 
   .logo:hover{
@@ -39,7 +41,9 @@ body{
     text-shadow: 0 0 10px black;
   }
 
-  .box-cont {
+
+
+  .icons-nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
