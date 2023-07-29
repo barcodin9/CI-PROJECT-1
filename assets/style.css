@@ -12,7 +12,7 @@ body{
   min-height:100%;
 }
 
-.home{
+#home{
   background-image: url(/assets/images/sunset-1373171_1920.jpg);
   background-size: cover;
   background-position: center center;
