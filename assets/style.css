@@ -570,7 +570,7 @@ body{
 
   /* video page */
 
-  .vid-h1{
+  .vid-h2{
     color: white;
     margin: 50px 0 0 100px;
   }
@@ -588,6 +588,138 @@ body{
 
   .yoga-desc-box {
     padding-top: 20px;
+  }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+  /* header */
+
+  .logo-cont {
+
+    height: 100px; 
+    padding:2px;
+    margin-top: 60px;
+    z-index:1;
+  }
+
+  .logo-internal {
+    padding-right: 40px ;
+  }
+
+  .logo {
+    font-size: 60px;
+  }
+  
+
+  .box {
+    width: 50px;
+    height:50px;
+    background-color: black;
+    margin: 15px;
+    border-radius:35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box1{
+    background-color: #fefae0;
+  }
+
+  .box2{
+    background-color: #fefae0;
+  }
+
+  .box3{
+    background-color: #fefae0;
+    
+  }
+
+  .box4{
+    background-color: #fefae0;
+    
+  }
+
+  /*home page*/
+
+  .homepage-text {
+    margin-top: 60px;
+    padding-bottom: 70px;
+    font-size: 200%;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .home-btn{
+    border: 5px solid yellow;
+    border-radius: 50px;
+    background: none;
+    padding:30px 20px 30px 20px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.3s;
+  }
+
+
+
+  /* shop page */
+
+  .product-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+
+
+  .footer-shop{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -300%;
+    background-color: white;
+    height: 35%;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+  }
+
+  /* video page */
+
+  .vid-h2{
+    color: white;
+    margin: 50px 0 0 20px;
+  }
+
+  /*contact page */
+
+  .question-form{
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    margin:70px 40px;
+    background-color: rgba(60, 60, 60, 0.7);
+    border-radius: 10px;
+    max-width: 800px;
+    height: 500px;
+    padding: 20px;
+  }
+
+  /* 404 page */
+
+  .fzf-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+
+    font-size: 30px;
   }
 
 
